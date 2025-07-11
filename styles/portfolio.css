@@ -27,7 +27,6 @@ nav{
 h2{
     font-size: 34px;
     color:#4E47FF;
-    font-family: ;
 }
 .btn-primary{
     padding: 12px 36px;
@@ -222,4 +221,38 @@ button:hover {
   background-color: rgb(243, 240, 77);
   font-size: 15px;
   color: black;
+}
+.footer-content{
+    justify-content: center;
+    align-items: center;
+    padding: 50px 455px 60px;    
+}
+
+.foot-heading{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 80px;
+    padding: 0px 120px 0px 120px;
+}
+.foot-paragraph{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+ul li{
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px; 
+    
+}
+
+li a{
+    text-decoration: none;
+    font-size:small;
+    color: #8987A1;
+}
+ul{
+    display: flex;
 }
