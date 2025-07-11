@@ -1,4 +1,16 @@
-
+*{
+    margin: 0px;
+}
+/* header-style */
+.header{
+    background-image: url('../Assets/Hero-bg.png');
+    background-size: contain; 
+    height: 675px;
+    margin: 0px auto;
+    padding: 10px 0px;
+    
+}
+/* nav-style */
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -9,7 +21,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 100px;
+    margin:35px 100px;
     
 }
 h2{
@@ -17,10 +29,29 @@ h2{
     color:#4E47FF;
     font-family: ;
 }
-button{
+.btn-primary{
     padding: 12px 36px;
     border-radius: 10px;
     background-color: #4E47FF;
     color: white;
-    border-color: #4E47FF;
+    border: none;
+}
+
+/* banner-style */
+.banner{
+    
+    align-items: center;
+    /* justify-content: flex-end; */
+    /* margin-left: auto; */
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 65px;
+    text-align: center;
+    margin:200px 300px 50px 300px;   
+}
+.banner-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
