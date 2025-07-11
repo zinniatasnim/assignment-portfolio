@@ -161,7 +161,6 @@ img{
     align-items: center;
     height: 20px;
     justify-content: left;
-    /* width: 20px; */
 }
 .ficon{
     height: 30px;
@@ -170,10 +169,50 @@ img{
 }
 .child{
     align-items: center;
-    /* justify-content: space-between; */
     text-align: left;
     font-size: small;
     color: rgba(0, 0, 0, 0.600);;
 }
-
-
+.touch{
+    margin: 130px 140px;
+}
+.touch-title{
+    font-weight: bold;
+    font-size: 80px;
+}
+.touch-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input[type="email"]{
+    height: 50px;
+    width: 497px;
+    box-sizing: border-box;
+    border-style:none;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.150);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+input[type="text"]{
+    height: 50px;
+    width: 499px;
+    box-sizing: border-box;
+    border-style:none;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.150);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#message{
+    height: 102px;
+    padding-bottom: 40px;
+}
+input{
+    padding: 5px 300px 0px 32px ;
+    font-size: medium;
+}
+.touch-btn{
+    padding: 15px 212px;
+    font: weight 55px;0;
+    
+}
