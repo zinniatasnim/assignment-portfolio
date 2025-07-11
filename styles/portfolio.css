@@ -212,7 +212,6 @@ input{
 }
 .touch-btn{
     padding: 15px 212px;
-    font: weight 55px;0;  
 }
 .bg-color{
     background-color: rgba(192, 190, 236, 0.1);
@@ -221,6 +220,12 @@ button:hover {
   background-color: rgb(243, 240, 77);
   font-size: 15px;
   color: black;
+}
+
+.touch-btn:hover{
+    background-color: rgb(243, 240, 77);
+    font-size: 13px;
+    color: black;
 }
 .footer-content{
     justify-content: center;
@@ -244,8 +249,7 @@ ul li{
     text-align: center;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 40px; 
-    
+    padding: 0px 40px;   
 }
 
 li a{
