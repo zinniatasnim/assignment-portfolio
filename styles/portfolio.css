@@ -213,6 +213,13 @@ input{
 }
 .touch-btn{
     padding: 15px 212px;
-    font: weight 55px;0;
-    
+    font: weight 55px;0;  
+}
+.bg-color{
+    background-color: rgba(192, 190, 236, 0.1);
+}
+button:hover {
+  background-color: rgb(243, 240, 77);
+  font-size: 15px;
+  color: black;
 }
