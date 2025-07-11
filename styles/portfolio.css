@@ -1,0 +1,26 @@
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 100px;
+    
+}
+h2{
+    font-size: 34px;
+    color:#4E47FF;
+    font-family: ;
+}
+button{
+    padding: 12px 36px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: white;
+    border-color: #4E47FF;
+}
